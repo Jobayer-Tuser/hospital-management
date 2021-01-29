@@ -1,0 +1,51 @@
+.custom>tbody>tr>td,
+.custom>tfoot>tr>td,
+.custom>thead>tr>td {
+   padding-top: 8px;
+   padding-right: 12px;
+   padding-bottom: 8px;
+   padding-left: 12px;
+   font-size: 15px;
+}
+
+.table > tbody > tr > td, .table > tfoot > tr > td, .table > thead > tr > td {
+   padding: 8px 12px;
+   font-size: 14px;
+}
+
+.mw-80 {
+   min-width: 80px;
+}
+
+.mw-98 {
+   min-width: 98px;
+}
+
+.customFormInput .form-control,
+.customFormInput label,
+.custom-select {
+   font-size: 14px;
+}
+
+.header-title {
+   color: #35a989;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.pxt-7 {
+   padding-top: 7px;
+}
+
+.pxt-2 {
+   padding-top: 2px;
+}
+
+.modal-header {
+   padding: 0.6rem;
+}
+
+.customTextarea {
+   min-height: 38px !important; 
+   line-height: 24px !important;
+}
