@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Jan 29, 2021 at 10:11 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.9
+-- Host: 127.0.0.1
+-- Generation Time: Jan 30, 2021 at 06:31 AM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -73,7 +73,8 @@ CREATE TABLE `admins` (
 
 INSERT INTO `admins` (`id`, `admin_name`, `admin_email`, `admin_mobile`, `admin_nidcard_no`, `admin_gender`, `admin_role_type`, `admin_avatar`, `admin_password`, `admin_status`, `created_at`, `updated_at`) VALUES
 (1, 'Abdullah Al Mamun Roni', 'md.aamroni@hotmail.com', '01316440504', '3254 128 784', 'Male', 'Root Admin', 'admin_image_20201125005337_aamroni.jpg', '59ad9220e4cfde905c0c9af7ac205d48dc2f98ba', 'Active', '2020-11-25 00:53:37', '2021-01-03 02:31:06'),
-(6, 'Kabir Khan', 'kabirkhan@gmail.com', '01419453652', '2589 124 653', 'Male', 'Administrator', 'admin_image_20201201030840_b-t-2.jpg', '51f91c6f8183b7af6006eb8b00d2baf7d49513d7', 'Active', '2020-12-01 03:08:40', '2020-12-08 06:45:56');
+(6, 'Kabir Khan', 'kabirkhan@gmail.com', '01419453652', '2589 124 653', 'Male', 'Administrator', 'admin_image_20201201030840_b-t-2.jpg', '51f91c6f8183b7af6006eb8b00d2baf7d49513d7', 'Active', '2020-12-01 03:08:40', '2020-12-08 06:45:56'),
+(7, 'Jobayer AL Mahmud', 'jobayer@gmail.com', '01703012202', '3254 145 925', 'Male', 'Root Admin', 'admin_image_20210129160249_AIbEiAIAAABDCJPD-cb33ZWsQiILdmNhcmRfcGhvdG8qKDRhMThhMjliNmE4MDFiOWE0MzgxODIzM2M2OWYyMzQ5ZDlhZWVlYTcwAS23774efovu3AKxFnC9Xde3Oupt.jfif', '2a4341797f3ef574a6d152b70b389f2992af595b', 'Active', '2021-01-29 16:02:49', NULL);
 
 -- --------------------------------------------------------
 
@@ -633,7 +634,7 @@ ALTER TABLE `accounts`
 -- AUTO_INCREMENT for table `admins`
 --
 ALTER TABLE `admins`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `appointments`
